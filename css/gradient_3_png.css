@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	background: transparent url(../img/gradient_3.png) center / 100% auto repeat-y;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		height: 100dvh;
+	}
+}

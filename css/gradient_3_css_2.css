@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	background: transparent repeating-linear-gradient(
+		to right,
+		#f00 0%,
+		#00f 1%,
+		#f00 2%
+	) center repeat-y;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		height: 100dvh;
+	}
+}
