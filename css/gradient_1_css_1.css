@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	background: transparent linear-gradient(
+		to right,
+		#f00 0%,
+		#00f 100%
+	) center repeat-y;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		height: 100dvh;
+	}
+}
