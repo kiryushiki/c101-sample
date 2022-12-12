@@ -12,7 +12,7 @@ body {
 		#f00 0%,
 		#00f 50%,
 		#f00 100%
-	) center / 2% 100% repeat-x;
+	) center / 2% repeat;
 }
 
 @media screen and (max-width: 768px) {
